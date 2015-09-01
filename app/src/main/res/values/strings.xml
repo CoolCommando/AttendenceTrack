@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomemsg">Hi, enter your Employee ID and hit \'Register\'.</string>
+    <string name="title_activity_landing_page">LandingPage</string>
+    <string name="invalid">Invalid entry, please enter a valid Employee ID.</string>
+    <string name="reg">Registering, please wait..</string>
+    <string name= "un">Entered ID not found in the database.</string>
+    <string name="fon">opensans.ttf</string>
+    <string name= "con">Cannot connect, check your internet connection.</string>
+
+</resources>

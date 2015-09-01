@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+        android:background="#f3fff0">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:id="@+id/welcome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/welcomemsg" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Emp ID"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_corners"
+        android:paddingLeft="10dp"
+        android:textColor="#c9fffb"
+        android:textColorHint="#c9fffb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/empid"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Register"
+        android:id="@+id/loginbtn"
+        android:background="@drawable/buttonback"
+        android:textColor="#c9fffb"
+        android:textAllCaps="false"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/empid"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

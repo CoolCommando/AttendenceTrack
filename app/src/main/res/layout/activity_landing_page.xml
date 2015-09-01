@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="attend1.com.example.sujith.attend1.LandingPage"
+        android:background="#f3fff0"
+
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome, please choose one of the following options:"
+            android:id="@+id/msg"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Punch In"
+            android:id="@+id/punchbtn"
+            android:textAllCaps="false"
+            android:layout_below="@+id/msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/buttonback"
+            android:textColor="#c9fffb" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work from home"
+            android:id="@+id/wfhbtn"
+            android:textAllCaps="false"
+            android:layout_below="@+id/punchbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:background="@drawable/buttonback"
+            android:textColor="#c9fffb"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off site"
+            android:id="@+id/offbtn"
+            android:textAllCaps="false"
+            android:layout_below="@+id/wfhbtn"
+            android:layout_alignLeft="@+id/punchbtn"
+            android:layout_alignStart="@+id/punchbtn"
+            android:layout_marginTop="48dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonback"
+            android:textColor="#c9fffb" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
