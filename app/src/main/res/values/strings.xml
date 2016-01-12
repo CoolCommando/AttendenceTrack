@@ -8,5 +8,10 @@
     <string name= "un">Entered ID not found in the database.</string>
     <string name="fon">opensans.ttf</string>
     <string name= "con">Cannot connect, check your internet connection.</string>
+    <string name="title_activity_options">Options</string>
+    <string name= "warn">LocationServices/GPS not enabled! Please enable LocationServices/GPS, application will be closed.</string>
+    <string name= "land">Welcome, please choose one of the following options:</string>
+    <string name="hello_world">Hello world!</string>
+
 
 </resources>
